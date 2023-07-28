@@ -1,0 +1,102 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "You there?",
+          "Howdy"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Hello there! Is there something I can help you with?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "That's all. Thank you"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "I hope you got what you were looking for.",
+          "Have a lovely day."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank you so much"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Good to hear you liked my response."]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "Do you sell anything?",
+          "How many types of things do you sell?",
+          "I'd like to see what do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea",
+          "Two things: coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "How can I pay for this?",
+          "How can I pay?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days",
+          "Anywhere around 2-4 days",
+          "We try our best to deliver within 2-4 days."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Can you make me laugh?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "When life gives you melons, you might be dyslexic.",
+          "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+          "I just got kicked out of a secret cooking society. I spilled the beans.",
+          "What’s the difference between ignorance and apathy? I don’t know and I don’t care."
+        ]
+      }
+    ]
+  }
